@@ -15,9 +15,9 @@
         <center>
             <h1 class="btn btn-info">Hand Gesture
                 <br>
-                <span>&#x270C;|</span>
-                <span>&#x1F44C;|</span>
-                <span>&#x1F44D;</span>
+                <span id="Peaceout">&#x270C;|</span>
+                <span id="goodjob">&#x1F44C;|</span>
+                <span id="thumbsup">&#x1F44D;</span>
             </h1>
             <br>
             <h3>Take a selfie of a Gesture to know about it's meaning</h3>
@@ -37,6 +37,11 @@
 </div>
 <div class="col-lg-4 col-md-12 col-xs-12">
     <label  class="btn btn-default color ">Prediction-</label>
+    <br>
+    <br>
+    <p class="gesture_name"id="result_gesture"></p>
+  <p class="gesture"id="update_gesture"></p>
+
 </div>
 <div class="col-md-4 col-sm-12 col-xs-12">
     <label  class="btn btn-default color ">Snapshot:</label>
@@ -45,6 +50,7 @@
         <div id="result">
     
         </div>
+        <br>
         <br>
         <br>
         <button class="btn btn-primary"onclick="Snapshot()">Predict Hand Gesture</button>
