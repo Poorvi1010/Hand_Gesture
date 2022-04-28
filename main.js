@@ -31,15 +31,15 @@ if (error) {
     console.log(result)
     document.getElementById("result_gesture").innerHTML=result[0].label;
 }
-if(result[0].label=="Peaceout")
+if(result[0].label=="Victory")
 {
     document.getElementById("update_gesture").innerHTML="&#x270C;";
 }
-if(result[0].label=="goodjob")
+if(result[0].label=="Good")
 {
     document.getElementById("update_gesture").innerHTML="&#x1F44C;";
 }
-if(result[0].label=="thumbsup")
+if(result[0].label=="Thumbs up")
 {
     document.getElementById("update_gesture").innerHTML="&#x1F44D;";
 }
